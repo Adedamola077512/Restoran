@@ -1,0 +1,36 @@
+#TESTIMONIALS {
+    padding-top: 100px;
+    /* height: 400px; */
+    /* margin-top: 50px; */
+}
+#text-card {
+    margin-top: 60px;
+}
+.owl-theme {
+    height: 600px;
+}
+.TEST {
+    color: #d95700;
+}
+.quot {
+    text-align: left;
+}
+.tes-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.text-flex {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+ @media only screen and (max-width: 600px){
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none !important;
+  }
+}
+  
