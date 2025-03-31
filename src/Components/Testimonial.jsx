@@ -35,7 +35,7 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div className="container mt-5" id="TESTIMONIALS">
+    <div className="container mt-5" id="TESTIMONIALS" data-aos="fade-up">
         <div class="menu-header">
            <span class="line"></span>
            <h2 class="title">Testimoial</h2>

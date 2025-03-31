@@ -27,7 +27,7 @@ const AboutUs = () => {
     }, [count50]);
 
   return (
-    <div className='container mt-5 py-5'>
+    <div className='container mt-5 py-5' data-aos="fade-up">
         <div className='About-flex'>
             <div>
                 <div className='About-flex-1'>

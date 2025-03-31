@@ -2,7 +2,7 @@ import React from 'react'
 import './Reservation.css'
 const Reservation = () => {
   return (
-    <div className='py-lg-5 mt-5'>
+    <div className='py-lg-5 mt-5' data-aos="fade-up">
       <div className='reservation-flex'>
         <div className='reservation-img'>
           <div className='reservation-center'>

@@ -6,7 +6,7 @@ import team3 from '../assets/team-3.jpg'
 import team4 from '../assets/team-4.jpg'
 const TeamMenu = () => {
   return (
-    <div className='container mt-5 py-5'>
+    <div className='container mt-5 py-5' data-aos="fade-up">
         <div class="menu-header">
            <span class="line"></span>
            <h2 class="title">Food Menu</h2>

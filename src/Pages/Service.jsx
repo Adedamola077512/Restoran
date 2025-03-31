@@ -1,8 +1,11 @@
 import React from 'react'
-
+import Master from '../Components/Master'
 const Service = () => {
   return (
-    <div>Service</div>
+    <div>
+      <Master/>
+      <Master/>
+    </div>
   )
 }
 

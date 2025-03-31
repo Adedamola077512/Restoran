@@ -7,7 +7,7 @@ import { RiCustomerServiceFill } from "react-icons/ri";
 const Master = () => {
   return (
     <div className='container py-5 mt-5'>
-        <div className='Master-flex'>
+        <div className='Master-flex' data-aos="fade-up">
             <div className='Master-card'>
               <FaUser className='user'/>
               <h5><b>Master Chefs</b></h5>

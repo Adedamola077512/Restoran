@@ -9,24 +9,26 @@
   }
   .home {
     text-decoration: none;
-    color: white;
+    color: white !important;
     font: bold;
     font-weight: 500;
   }
   .home:hover {
-    color: #feaf39;
+    color: #feaf39 !important;
     text-decoration: underline;
   }
   #page-dropdown{
       text-decoration: none;
-      color: white ;
-      /* font-size: 15px; */
+      color: white;
       font: bold;
       font-weight: 500;
   }
   #page-dropdown:hover {
     color: #feaf39;
     text-decoration: underline;
+  }
+  .booking:hover {
+    background-color: #feaf39;
   }
   .navbar-nav {
     gap: 1px;
@@ -37,7 +39,7 @@
   }
   .Kider {
     font-size: 40px;
-    color : #feaf39;
+    color: #feaf39;
     font-weight: 700;
     font-family: 'Lobster', cursive;
   
@@ -55,7 +57,7 @@
   .btn-primary {
     background-color: #feaf39;
     border: none;
-    /* border-radius: 20px; */
+    border-radius: 0;
   }
   .btn-primary:hover {
     background-color: gold;
@@ -63,37 +65,20 @@
     /* border-radius: 20px; */
   }
     
-    /* Responsive button for screens smaller than 600px */
-    @media (max-width: 600px) {
-     .contact-btn {
-        width: 100%;
-        margin-top: 10px;
-        text-align: center;
-      }
-    }
-    
-    /* Full width on smaller screens */
-    @media (max-width: 991px) {
-      .contact-btn {
-        width: 100%;
-        margin-top: 10px;
-        text-align: center;
-      }
-    }
-    
   @media screen and (max-width: 600px) {
       /* For screens smaller than 600px */
       .vec {
           height: 50px;
           border-bottom: none;
       }
-      .primary{
-        width: 100%;
-        margin: 10px 0;
-        display: none;
-      }
       .Nav {
-        justify-content: center;
+        justify-content: left;
+      }
+      .navbar-nav {
+        gap: 0px;
+      }
+      .btn-primary {
+        width: 100%;
       }
       .scalloped {
         height: 100%;

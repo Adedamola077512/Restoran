@@ -15,7 +15,7 @@ import menu7 from '../assets/menu-7.jpg'
 import menu8 from '../assets/menu-8.jpg'
 const FoodMenu = () => {
   return (
-    <div className='container mt-5 py-5'>
+    <div className='container mt-5 py-5' data-aos="fade-up">
         <div class="menu-header">
            <span class="line"></span>
            <h2 class="title">Food Menu</h2>
