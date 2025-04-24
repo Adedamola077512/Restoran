@@ -20,19 +20,19 @@ function NavigationBar() {
         <Navbar.Collapse id="navbar-nav" className="Nav">
           <Nav className="">
             {/* Navigation Links */}
-            <Nav.Link as={Link} to="/" className="home" id="line">HOME</Nav.Link>
-            <Nav.Link as={Link} to="/about" className="home">ABOUT</Nav.Link>
-            <Nav.Link as={Link} to="/service" className="home">SERVICE</Nav.Link>
-            <Nav.Link as={Link} to="/menu" className="home">MENU</Nav.Link>
+            <Link to="/" className="home" id="line">HOME</Link>
+            <Link to="/about" className="home">ABOUT</Link>
+            <Link to="/service" className="home">SERVICE</Link>
+            <Link to="/menu" className="home">MENU</Link>
             
             {/* Dropdown Menu */}
             <NavDropdown title="PAGE" id="page-dropdown">
-              <NavDropdown.Item className='booking' as={Link} to="/booking">Booking</NavDropdown.Item>
-              <NavDropdown.Item className='booking' as={Link} to="/ourTeam">Our Team</NavDropdown.Item>
-              <NavDropdown.Item className='booking' as={Link} to="/testimonials">Testimonials</NavDropdown.Item>
+              <NavDropdown.Item className='booking' to="/booking">Booking</NavDropdown.Item>
+              <NavDropdown.Item className='booking' to="/ourTeam">Our Team</NavDropdown.Item>
+              <NavDropdown.Item className='booking' to="/testimonials">Testimonials</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="/contact" className="home">CONTACT</Nav.Link>
+            <Link to="/contact" className="home">CONTACT</Link>
             {/* Sign-Up Button */}
           <Button variant="primary" className="btn btn-primary btn-rounded">
             BOOK A TABLE

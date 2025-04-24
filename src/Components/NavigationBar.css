@@ -11,6 +11,7 @@
     text-decoration: none;
     color: white !important;
     font: bold;
+    margin: 7px;
     font-weight: 500;
   }
   .home:hover {
@@ -86,6 +87,9 @@
       .Toggle {
         border: 1px solid white;
         background-color: gold;
+      }
+      #page-dropdown {
+        margin-left: 10px;
       }
   }
   
